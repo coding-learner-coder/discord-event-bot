@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 import pytz
 import aiosqlite
 
-TOKEN = "MTQ1MDkwMTg2MDEzMDIzMDQ5Nw.GfqAxG.PIUx9xiWWt69zAGmtrbyJ0vgILneo-kkfAuSIcpython"
+TOKEN = "token here"
 
 intents = discord.Intents.default()
 bot = commands.Bot(command_prefix="!", intents=intents)
@@ -126,3 +126,4 @@ async def disable_events(interaction: discord.Interaction):
     await interaction.response.send_message("⛔ Events disabled.", ephemeral=True)
 
 bot.run(TOKEN)
+
