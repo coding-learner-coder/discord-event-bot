@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Discord Event Bot
 
 This repository contains a small Discord bot that announces events. To keep your bot token secret when publishing to GitHub or deploying to Railway, the token must be provided via an environment variable (or a local `.env` file which should NOT be committed).
@@ -61,3 +62,6 @@ python -m venv .venv
 Troubleshooting:
 - If VS Code still shows "Import 'discord' could not be resolved", set the Python interpreter in the bottom-right to the interpreter above, then reload the window.
 - If using a virtualenv, set `python.analysis.extraPaths` in `.vscode/settings.json` to the venv `Lib\site-packages` path.
+=======
+# discord-event-bot
+>>>>>>> a2169c126e1cef898c38339ca0714d7a7eec2f6c

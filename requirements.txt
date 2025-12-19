@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 discord.py>=2.6.4
 aiosqlite
 pytz
@@ -6,3 +7,8 @@ aiosqlite
 datetime
 discord
 pytz
+=======
+discord.py
+pytz
+aiosqlite
+>>>>>>> a2169c126e1cef898c38339ca0714d7a7eec2f6c
