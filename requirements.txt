@@ -1,0 +1,8 @@
+discord.py>=2.6.4
+aiosqlite
+pytz
+python-dotenv
+aiosqlite
+datetime
+discord
+pytz

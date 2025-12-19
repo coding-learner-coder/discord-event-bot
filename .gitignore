@@ -1,0 +1,13 @@
+# Environment and secrets
+.env
+env.local
+
+# Database
+events.db
+
+# Python
+__pycache__/
+*.pyc
+
+# VS Code workspace/user settings
+.vscode/settings.json
